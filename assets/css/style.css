@@ -1,0 +1,52 @@
+.full-width{
+    width:100%;
+}
+.background-image{
+    background-size: cover;
+    background-color:rgb(34, 34, 59);
+    
+
+}
+.field{
+ width:1000px;
+    height: 50px;
+}
+.container{
+    align-items: center;
+   
+    content: normal;
+}
+
+a:hover {
+  background-color: orange;
+  border-radius: 9px;
+}
+.image1{
+   margin: 0%;
+   padding: 0%;
+    display:flex;
+    justify-content: center;
+    top:50px;
+}
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+   ul li a{
+      background-color: orange;
+      border-radius:9px;
+      gap:25px;
+      display:block;
+      align-items:vertical
+     
+    }
+    
+  }
+ 
